@@ -1,0 +1,47 @@
+.container-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blue);
+    padding: 1rem 0;
+    width: 90%;
+    margin: 1rem auto;
+    border-radius: 5px;
+    border: 1px solid var(--white);
+    box-shadow: 0 0px 1px 1px var(--white);
+    cursor: pointer;
+}
+
+.container-task:nth-child(3n+1) {
+    background-color: var(--blue3);
+}
+
+.container-task:nth-child(3n+2) {
+    background-color: var(--blue2);
+}
+
+.container-task:nth-child(3n+3) {
+    background-color: var(--blue1);
+}
+
+.container-task:hover {
+    background-color: var(--blueDull);
+    transition: 0.5;
+}
+
+.container-task.completed {
+    background-color: var(--orange);
+    text-decoration: line-through var(--white);
+}
+
+.text-task {
+    color: var(--white);
+    font-size: 1.6rem;
+    padding: 0 1rem;
+}
+
+.icon-task {
+    padding: 0 1rem;
+    color: var(--white);
+    font-size: 1.6rem;
+}

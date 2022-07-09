@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 20rem;
+}
+
+.container-tasklist {
+  background-color: var(--blueDark);
+  height: auto;
+  width: 90%;
+  margin: 2rem 0;
+  border-radius: 5px;
+  border: 1px solid var(--blue);
+}
+
+.title-app {
+  text-transform: capitalize;
+}

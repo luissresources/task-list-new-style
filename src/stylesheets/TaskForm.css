@@ -1,0 +1,38 @@
+.container-taskform {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.input-taskform {
+    flex-grow: 2;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: 3rem;
+    border: 1px solid var(--blueLight);
+    font-size: 1.6rem;
+    color: var(--black);
+    outline: none;
+}
+
+.button-taskform {
+    flex-grow: 1;
+    border: 1px solid var(--blueLight);
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 1.6rem;
+    height: 3rem;
+    outline: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+}
+
+.button-taskform:hover{
+    background-color: var(--blueLight);
+    transition: 0.2s;
+    color: var(--white);
+}
+
