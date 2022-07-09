@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/luissresources/static/css/main.9a0f0468.css",
+    "main.js": "/luissresources/static/js/main.8c36193c.js",
+    "static/media/logo-2.png": "/luissresources/static/media/logo-2.ab040bae8bd732142992.png",
+    "index.html": "/luissresources/index.html",
+    "main.9a0f0468.css.map": "/luissresources/static/css/main.9a0f0468.css.map",
+    "main.8c36193c.js.map": "/luissresources/static/js/main.8c36193c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a0f0468.css",
+    "static/js/main.8c36193c.js"
+  ]
+}
